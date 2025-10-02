@@ -1,12 +1,32 @@
-pandas
-numpy
+# Data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.21.0
 
-yfinance
-statsmodels
+# Financial data fetching
+yfinance>=0.2.0
 
-matplotlib
-seaborn
-plotly
+# Time series analysis and statistical modeling
+statsmodels>=0.14.0
 
-scikit-learn
-tensorflow
+# Visualization libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Machine learning and preprocessing
+scikit-learn>=1.1.0
+
+# Deep learning framework
+tensorflow>=2.10.0
+
+# Gradio for web interface
+gradio>=4.0.0
+
+# Additional dependencies for Hugging Face deployment
+huggingface_hub>=0.16.0
+
+# Time series forecasting
+prophet>=1.1.0
+
+# Date and time handling (usually included with Python but explicit for clarity)
+datetime
